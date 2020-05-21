@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "__50-[ViewController tableView:cellForRowAtIndexPath:]_block_invoke.114:ViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "resp.statusCode">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

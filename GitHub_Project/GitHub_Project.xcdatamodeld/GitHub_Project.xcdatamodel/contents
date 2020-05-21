@@ -1,4 +1,33 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Objective-C" usedWithCloudKit="false" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="15702" systemVersion="19D76" minimumToolsVersion="Automatic" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+    <entity name="RepoDB" representedClassName="RepoDB" syncable="YES" codeGenerationType="class">
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="json" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="SearchDB" representedClassName="SearchDB" syncable="YES" codeGenerationType="class">
+        <attribute name="avatar_url" optional="YES" attributeType="String"/>
+        <attribute name="events_url" optional="YES" attributeType="String"/>
+        <attribute name="followers_url" optional="YES" attributeType="String"/>
+        <attribute name="following_url" optional="YES" attributeType="String"/>
+        <attribute name="gists_url" optional="YES" attributeType="String"/>
+        <attribute name="gravatar_id" optional="YES" attributeType="String"/>
+        <attribute name="html_url" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="login" optional="YES" attributeType="String"/>
+        <attribute name="node_id" optional="YES" attributeType="String"/>
+        <attribute name="organizations_url" optional="YES" attributeType="String"/>
+        <attribute name="received_events_url" optional="YES" attributeType="String"/>
+        <attribute name="repos_url" optional="YES" attributeType="String"/>
+        <attribute name="score" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="searchText" optional="YES" attributeType="String"/>
+        <attribute name="site_admin" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="starred_url" optional="YES" attributeType="String"/>
+        <attribute name="subscriptions_url" optional="YES" attributeType="String"/>
+        <attribute name="type" optional="YES" attributeType="String"/>
+        <attribute name="url" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="SearchDB" positionX="-45" positionY="0" width="128" height="343"/>
+        <element name="RepoDB" positionX="-18" positionY="171" width="128" height="73"/>
+    </elements>
 </model>

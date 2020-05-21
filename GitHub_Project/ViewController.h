@@ -13,3 +13,9 @@
 
 @end
 
+@interface GitUserCell : UITableViewCell 
+@property (weak, nonatomic) IBOutlet UIImageView *imgAvatar;
+@property (weak, nonatomic) IBOutlet UILabel *lblUserName;
+@property (weak, nonatomic) IBOutlet UILabel *lblRepo;
+
+@end
